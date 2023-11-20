@@ -1,0 +1,9 @@
+name: PartigonExamplePlugin
+version: '${version}'
+main: xyz.gameoholic.partigonexampleplugin.PartigonExamplePlugin
+api-version: 1.20
+depend: [ Partigon ]
+commands:
+  particle:
+    description: particle
+    usage: /particle
